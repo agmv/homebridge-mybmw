@@ -1,22 +1,22 @@
 {
-  "name": "homebridge-plugin-name",
-  "displayName": "Plugin Name",
+  "name": "homebridge-mybmw",
+  "displayName": "MyBMW",
   "type": "module",
   "version": "1.0.0",
   "private": true,
   "description": "A short description about what your plugin does.",
-  "author": "Your Name",
+  "author": "Andre Vieira",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/USERNAME/GITHUB_PROJECT_NAME#readme",
+  "homepage": "https://github.com/agmv/homebridge-mybmw#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/agmv/homebridge-mybmw.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/agmv/homebridge-mybmw/issues"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-mybmw"
   ],
   "main": "dist/index.js",
   "engines": {
@@ -42,6 +42,7 @@
     "typescript-eslint": "^8.12.2"
   },
   "dependencies": {
-    "homebridge-lib": "^7.1.0"
+    "homebridge-lib": "^7.1.0",
+    "nodejs-connected-drive": "^3.1.1"
   }
 }

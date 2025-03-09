@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "MyBMW",
   "pluginType": "platform",
   "singular": true,
   "strictValidation": false,
@@ -10,7 +10,26 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "BMW Connected Drive"
+      },
+      "email": {
+          "type": "string",
+          "title": "BMW Connected Drive Username",
+          "description": "The email address you use to log into MyBMW.",
+          "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "required": true,
+          "x-schema-form": {
+              "type": "email"
+          }
+      },
+      "password": {
+          "type": "string",
+          "title": "BMW Connected Drive Password",
+          "description": "The password you use to log into MyBMW.",
+          "required": true,
+          "x-schema-form": {
+              "type": "password"
+          }
       }
     }
   }
